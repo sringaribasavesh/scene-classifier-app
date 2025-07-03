@@ -1,4 +1,13 @@
-myenv/
+# Ignore datasets
+Dataset/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
 # Python cache
 __pycache__/
 *.pyc
+
+
+# ignore model weights if needed
+*.pth
